@@ -19,7 +19,7 @@ def get_kr_min():
 def getinfo(id):
     url = f"https://discordapp.com/api/users/{id}"
     he = {
-        "Authorization":f"Bot {MTA4MTgwMTc2NDkyOTUzNjAxMA.GVqeM6.Mk_AVXZa26y7-pVV6-SbAykDJpkNsBm4uj7Q3U}"
+        "Authorization":f"Bot {MTA4MTgwMTc2NDkyOTUzNjAxMA.Gj4GFu.nVCIUqvYt6ioVX4027wPyB4xYYFIwO4aH6FGa8}"
     }
     res = requests.get(url,headers=he)
     r = res.json()
